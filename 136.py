@@ -27,6 +27,14 @@ def fn (nums):
         
     return -1
 
+def fn2 (nums): #accepted
+    nums_bk = nums[:]
+    ans = nums_bk[0]
+    for i in range (1, len(nums_bk)):
+        ans = ans ^ nums_bk[i]
+    return ans
+    
+
 
     
 test_case = [1,1,2,2,3,3,4,4,5,5,6,6,7,8,10,10,8]
