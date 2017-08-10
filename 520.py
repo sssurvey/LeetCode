@@ -28,3 +28,37 @@ def fn (word):
                 flag = False
                 return flag
         return flag
+    
+    if word_list[0].isupper() is True:
+        for i in range(1, len(word_list)-1):
+            if word_list[i].isupper() and word_list[i+1].isupper():
+                flag = True
+                print ("Upper ^ Upper, start with Upper ->", flag)
+            elif word_list[i].islower() and word_list[i+1].islower():
+                flag = True
+                print ("lower ^ lower, start with upper ->", flag)
+            else:
+                flag = False
+                print ("not legit, status ->", flag)
+                return flag
+        return flag
+            
+            
+    
+    
+    
+    #elif word
+    
+    
+    
+    
+test_1 = "USA"
+test_2 = "Hall"
+test_3 = "wronG"
+test_4 = "hello"
+test_5 = "LoLoLolsdafasol"
+test_6 = "G"
+test_7 = "GG"
+test_8 = "gG"
+
+print (fn(test_7))
