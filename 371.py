@@ -12,8 +12,18 @@ def fn (a, b): #not working, this has a mem problem when input 2147483647 and -2
         return a
     
 def fn1 (a, b):
-    pass
+    mask = 0xffffffff
+    maximum = 0x7fffffff
     
+    while b != 0:
+        temp = (a ^ b) & mask
+        b = ((a & b) << 1) & mask
+        a = temp
+    
+    if a <= maximum:
+        return a
+    else:
+        return ~(a ^ mask)
     
     
     
@@ -21,4 +31,4 @@ def fn1 (a, b):
 test_a = -12
 test_b = -8
 
-print (fn(test_a, test_b))
+print (fn1(test_a, test_b))
