@@ -1,7 +1,7 @@
 #leetCode 387
 #First Unique Char in a Str
 
-def fn (s):
+def fn (s): #done
     temp_list = list(s)
     if s == 1:
         return 0
