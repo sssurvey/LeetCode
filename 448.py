@@ -2,13 +2,10 @@
 #find all numbers disappeared in an Array
 
 def fn (nums):
-    list_1_sorted = sorted(nums)
-    ans_list = []
-    for i in range(1, len(list_1_sorted)):
-        if i != list_1_sorted[i]:
-            ans_list.append(i)
-    return ans_list
+    for n in nums:
+        nums[abs(n) - 1] = -abs(nums[abs(n) - 1])
     
+    return [i+1 for i, n in enumerate(nums) if n > 0]
 
 
     
