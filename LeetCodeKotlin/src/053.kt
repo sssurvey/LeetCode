@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
 
 class Solution {
     fun maxSubArray(nums: IntArray): Int? {
-        //return is the sum
+        //return is max:int
         var final_array = IntArray(nums.size) //create an array to hold result
         for (nums_index in final_array.indices){
             if (nums_index == 0) {
