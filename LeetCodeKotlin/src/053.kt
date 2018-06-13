@@ -1,8 +1,9 @@
 fun main(args: Array<String>) {
     var my_solution = Solution()
     //val test_array : IntArray = intArrayOf(-2,1,-3,4,-1,2,1,-5,4)
-    val test_array : IntArray = intArrayOf(-2,-1,-1)
+    val test_array : IntArray = intArrayOf(-1)
     println(my_solution.maxSubArray(test_array))
+    println(my_solution.maxSubArray2(test_array))
 }
 /*
     if I already have a number:
@@ -44,6 +45,18 @@ class Solution {
             }
         }
         return final_array.max()
+    }
+
+    fun maxSubArray2(nums: IntArray): Int? {
+        var answer = nums[0]
+        var current = 0
+
+        for (nums_index in nums.indices) {
+            current = maxOf(current+nums[nums_index],nums[nums_index])
+            if (current > answer) answer = current
+            if (nums.size == 1) answer = nums[nums_index]
+        }
+        return answer
     }
 
 }
