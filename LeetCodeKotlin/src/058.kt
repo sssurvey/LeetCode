@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     var my_solution = Solution058()
-    val test_string = "a aaa    ddddd   df "
+    val test_string = "a aaa    ddddd   df  dfasdf   f"
     var ans = my_solution.lengthOfLastWord4(test_string)
     println(ans)
 }
@@ -41,8 +41,22 @@ class Solution058 {
     }
 
     fun lengthOfLastWord4(s:String):Int{
-        
-        return 1
+        var count = 0
+        val strlen = s.length - 1
+        var beginCount = false
+        for (i in strlen.downTo(0)) {
+            var char = s[i]
+            if (char == ' ') {
+                if (beginCount){
+                    return count
+                }
+            } else {
+                beginCount = true
+                count++
+            }
+
+        }
+        return count
+        }
     }
 
-}
