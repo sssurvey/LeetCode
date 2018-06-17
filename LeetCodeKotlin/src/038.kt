@@ -4,34 +4,43 @@
 3.     21 -> one 2 one 1 or 1211
 4.     1211
 5.     111221
+
+This leetCode problem question is extremely confusing, DISLIKE
+I made a solution to read the number for example 13566 = 11131526
+but turns out what the question want is to represent int by only using 1 or 2, that is is input = 6 then the program
+returns 32 since three 2 is 2+2+2 = 6
  */
 
 
 fun main(args: Array<String>) {
     val my_solution = Solution038()
-    var answerStr = my_solution.countAndSay(111231)
+    //var temp = "1112312"
+    //println(temp[6])
+    var answerStr = my_solution.countAndSay(1)
     println(answerStr)
+
 }
 
 class Solution038 {
     fun countAndSay(n: Int): String {
-        val numberStr : String = n.toString()
-        val numberStrList = numberStr.split("")
-        val sb = StringBuilder()
-        // val integerArray = intArrayOf(0,1,2,3,4,5,6,7,8,9)
-        // val strAarry = arrayOf("1","2","3","4","5","6","7","8","9","0")
-
+        var charArray = n.toString()
+        var sb = StringBuilder()
+        var answer = charArray[0]
+        var current : Char
         var counter = 0
-        for (numberStrIndex in numberStrList.indices-1){
-            counter++
-            if (numberStrList[numberStrIndex] == numberStrList[numberStrIndex+1]){
-                counter++
-            } else {
-                sb.append(counter * numberStrList[numberStrIndex].toInt())
-                counter = 0
+
+        for (item in charArray) {
+            current = item
+            if (current == answer) counter++
+            else if (current != answer) {
+                sb.append(counter)
+                sb.append(answer)
+                answer = current
+                counter = 0 + 1
             }
         }
-
+        sb.append(counter)
+        sb.append(charArray[charArray.length-1])
         return sb.toString()
     }
 
