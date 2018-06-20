@@ -34,10 +34,15 @@ def solution(number):
                 return False
     return True
 
+def solution2(number):
+    number_str = str(number)
+    return number_str == number_str[::-1]
 
 def main():
     number = 101
     answer = solution(number)
+    print(answer)
+    answer = solution2(number)
     print(answer)
 
 if __name__ == "__main__":
