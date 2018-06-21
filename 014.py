@@ -12,7 +12,7 @@ def solution(temp_strs_list):
     """
     return_str = ""
     current_char = ""
-    # only use on string as the sample
+    # only use one string as the sample
     # leetcode seems to have some issus, have to put another try except outside
     # ugly, but beat 97.87% of other submission
     try:
