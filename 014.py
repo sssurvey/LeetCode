@@ -14,7 +14,7 @@ def solution(temp_strs_list):
     current_char = ""
     # only use one string as the sample
     # leetcode seems to have some issus, have to put another try except outside
-    # ugly, but beat 97.87% of other submission
+    # ugly, but beat 97.87% of other submission Jan 21, 2018
     try:
         for index in range(len(temp_strs_list[0])):
             try:
