@@ -11,10 +11,13 @@ def solution(nums, target):
     elif target <= nums[0]: return 0
     for index in range(len(nums)):
         if target > nums[index-1] and target <= nums[index]: return index
-        
+
+def solution2(nums, target):
+    return len([i for i in nums if i < target])
         
 testcase1_arr = [1, 3, 4, 8, 9]
 testcase2_arr = [6]
 testcase3_arr = [2,3]
 
 print(solution(testcase2_arr, 3))
+print(solution2(testcase2_arr, 3))
