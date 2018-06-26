@@ -3,18 +3,17 @@
 # or [2,2,3,2] return 2
 
 def singleNumberII(nums):
-    # this approach is incorrect, i miss understood the question
-    current = nums[0]
-    if len(nums) == 1:                              return nums[0]
-    elif nums[0] != nums[1]:                        return nums[0]
-    elif nums[len(nums)-1] != nums[len(nums)-2]:    return nums[len(nums)-1]
-        
-    for index in range(1, len(nums)-1):
-        if nums[index] != nums[index-1] and nums[index] != nums[index+1]:
-            return nums[index]
-
-
+    # very slow
+    num_dict_keyL = []
+    num_dict = {}
+    for number in nums:
+        if number not in num_dict_keyL:
+            num_dict_keyL.append(number)
+    for number in num_dict_keyL:    num_dict[number] = 0
+    for number in nums:             num_dict[number] += 1
+    for key, value in num_dict.items():
+        if value == 1:              return key
             
 
-test_num = [3,3,3,0,2,2,2]
+test_num = [1,3,3,3,2,2,2]
 print(singleNumberII(test_num))
