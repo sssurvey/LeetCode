@@ -24,8 +24,8 @@ def singleNumberIIver2(nums):
             nums_dict[number] = 1
         else:
             nums_dict[number] += 1
-    for key, value in nums_dict.items():
-        if value == 1:
+    for key in nums_dict.keys():
+        if nums_dict[key] == 1:
             return key
 
 def singleNumberIIver3(nums):
@@ -42,10 +42,21 @@ def singleNumberIIver3(nums):
     for index in range(1, len(nums)-1):
         if nums[index] != nums[index-1] and nums[index] != nums[index+1]:
             return nums[index]
+    
+def singleNumberIIver4(nums):
+    dict = {}
+    for i in nums:
+        if i in dict:
+            dict[i] = dict[i] + 1
+        else:
+            dict[i] = 1
+    for i in dict.keys():
+        if dict[i] == 1:
+            return i
 
 
 
             
 
-test_num = [3,3,3,4,2,2,2]
-print(singleNumberIIver3(test_num))
+test_num = [3,5,5,5,4,4,1,3,3,4,2,2,2]
+print(singleNumberIIver2(test_num))
