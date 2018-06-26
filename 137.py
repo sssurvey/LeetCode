@@ -3,6 +3,7 @@
 # or [2,2,3,2] return 2
 
 def singleNumberII(nums):
+    # this approach is incorrect, i miss understood the question
     current = nums[0]
     if len(nums) == 1:                              return nums[0]
     elif nums[0] != nums[1]:                        return nums[0]
@@ -11,6 +12,7 @@ def singleNumberII(nums):
     for index in range(1, len(nums)-1):
         if nums[index] != nums[index-1] and nums[index] != nums[index+1]:
             return nums[index]
+
 
             
 
