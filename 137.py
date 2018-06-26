@@ -32,7 +32,6 @@ def singleNumberIIver3(nums):
     # faster, still slow, 50ms
     nums = sorted(nums)
     current = nums[0]
-    current = nums[0]
     if len(nums) == 1:
         return nums[0]
     elif nums[0] != nums[1]:
@@ -53,10 +52,6 @@ def singleNumberIIver4(nums):
     for i in dict.keys():
         if dict[i] == 1:
             return i
-
-
-
-            
 
 test_num = [3,5,5,5,4,4,1,3,3,4,2,2,2]
 print(singleNumberIIver2(test_num))
