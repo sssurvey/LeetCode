@@ -1,4 +1,5 @@
-#125
+# 125
+# issues with extreme case, the test cases doesnt seems right
 
 def isPalindrome(s):
     """
