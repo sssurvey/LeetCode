@@ -1,5 +1,6 @@
 # first approach Big O (N/2) = N
 # test passed
+
 def solution(number):
     """take in a number calculate if its palindrome"""
     if number < 0:
