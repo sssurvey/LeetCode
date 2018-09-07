@@ -2,10 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7fd9fec-91bc-450e-9b0c-9b9fd0db9c34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/LeetCode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.009.py.swo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/125.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/125.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/485.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/485.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/771.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/771.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/_importlib_modulespec.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/_importlib_modulespec.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/abc.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/abc.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/builtins.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/builtins.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/codecs.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/codecs.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/collections/__init__.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/collections/__init__.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/collections/abc.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/collections/abc.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/__init__.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/__init__.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/abc.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/abc.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/machinery.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/machinery.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/util.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/importlib/util.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/io.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/io.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/mmap.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/mmap.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/os/__init__.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/os/__init__.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/os/path.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/os/path.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/posix.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/posix.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/sys.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/sys.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/types.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/types.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/typing.data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mypy_cache/3.6/typing.meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../112.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../125.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../136.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../137.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../231.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../283.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../344.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../371.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../387.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../389.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../448.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../476.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../485.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../500.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../507.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../520.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../557.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../771.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/out/production/Test/META-INF/Test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/out/production/Test/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/out/production/Test/StaticKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/src/Static.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +92,10 @@
     <session id="954259916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,7 +137,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solutions/Solution709.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -70,11 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/SolutionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1920" />
     <option name="y" value="-984" />
     <option name="width" value="1920" />
@@ -166,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -201,13 +276,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536286086808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536286818667" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -334,12 +410,18 @@
     <history-entry file="SolutionsTest - 2018.09.06 at 21h 07m 02s.xml">
       <configuration name="SolutionsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolutionsTest - 2018.09.06 at 21h 17m 09s.xml">
+      <configuration name="SolutionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionsTest - 2018.09.06 at 21h 20m 20s.xml">
+      <configuration name="SolutionsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-984" width="1920" height="1177" extended-state="6" />
+    <frame x="-1920" y="-984" width="1920" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17358893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17518637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +430,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,19 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SolutionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,6 +472,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SolutionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
