@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7fd9fec-91bc-450e-9b0c-9b9fd0db9c34" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution003.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeJava/Solution003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution003Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution003Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,32 +37,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="728" />
+          <entry key="java" value="1281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="728" />
+          <entry key="JAVA" value="1281" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution066.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution003.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            <state relative-caret-position="294">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -69,8 +61,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution003Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="84">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +93,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>s</find>
+      <find>acharArr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,7 +187,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539628768545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539632364257" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -208,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution003Test.solution">
+  <component name="RunManager" selected="JUnit.Solution003Test">
     <configuration name="Solution066" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution066" />
       <module name="LeetCodeJava" />
@@ -219,6 +225,15 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution003Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Solution003Test" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,9 +266,11 @@
     <list>
       <item itemvalue="Application.Solution066" />
       <item itemvalue="JUnit.Solution003Test.solution" />
+      <item itemvalue="JUnit.Solution003Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Solution003Test" />
         <item itemvalue="JUnit.Solution003Test.solution" />
         <item itemvalue="Application.Solution066" />
       </list>
@@ -273,35 +290,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 21m 45s.xml">
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 14m 55s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution003Test_solution - 2018.10.15 at 14h 15m 05s.xml">
       <configuration name="Solution003Test.solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 22m 40s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 16m 58s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 25m 27s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 18m 35s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 26m 40s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 20m 16s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 27m 50s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 21m 04s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 31m 07s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 22m 44s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 31m 38s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 34m 40s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 33m 47s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 37m 28s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 34m 29s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Solution003Test_solution - 2018.10.15 at 13h 38m 42s.xml">
-      <configuration name="Solution003Test.solution" configurationId="JUnit" />
+    <history-entry file="Solution003Test - 2018.10.15 at 14h 39m 04s.xml">
+      <configuration name="Solution003Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -316,7 +333,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280899" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -325,7 +342,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921347" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -343,21 +360,16 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Solution003.java</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="1" />
+          <line>3</line>
+          <properties class="Solution003" method="solution">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="sb.toString().length()" language="JAVA" />
-        <watch expression="answer.length()" language="JAVA" />
-        <watch expression="answer.indexOf(&quot;a&quot;)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -386,22 +398,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Solution066.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution003Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="84">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution003.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
